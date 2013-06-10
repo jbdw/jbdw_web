@@ -1,4 +1,6 @@
-﻿.page 
+﻿
+@media (min-width: 970px) {
+.page 
 {
     margin: auto;
     min-width: 970px;
@@ -72,4 +74,82 @@
     left: 600px;
     top: 335px;
     width: 350px;
+}
+}
+@media (max-width: 969px) {
+.page 
+{
+    margin: auto;
+    min-width: 640px;
+    min-height: 910px;
+    display:block;
+}
+.image_map 
+{
+    width: 640px;
+    height: 910px;
+    margin:auto;
+    display:block;
+    background:url(jbdwHome640m.png) no-repeat;
+    z-index:0;
+    position:relative;
+}
+.image_map_top
+{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	opacity:0; 
+	*filter: Alpha(opacity=0);
+	margin: 0 0 0 0;
+	border:none;
+}
+.title_main {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 175px;
+    top: 160px;
+    width: 300px;
+}
+.title_create {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 430px;
+    width: 300px;
+}
+.title_develop {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 170px;
+    top: 700px;
+    width: 300px;
+}
+.title_consult {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 330px;
+    top: 430px;
+    width: 300px;
+}
 }
