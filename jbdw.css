@@ -20,12 +20,23 @@
 .image_map_top
 {
 	position: absolute; 
-	top: 0; 
-	left: 0; 
+	top: 0px; 
+	left: 0px; 
 	opacity:0; 
 	*filter: Alpha(opacity=0);
 	margin: 0 0 0 0;
 	border:none;
+}
+.at_main
+{
+	display:block;
+	position: absolute; 
+	top: 60px; 
+	left: 455px; 
+    background:url(at.png) no-repeat;	
+ 	z-index:10;
+	width: 60px;
+	height: 60px;
 }
 .title_main {
     display: block;
@@ -39,6 +50,17 @@
     top: 160px;
     width: 350px;
 }
+.at_create
+{
+	display:block;
+	position: absolute; 
+	top: 230px; 
+	left: 170px; 
+    background:url(at.png) no-repeat;	
+ 	z-index:10;
+	width: 60px;
+	height: 60px;
+}
 .title_create {
     display: block;
     font-family: 'Lucida Sans Unicode';
@@ -50,6 +72,28 @@
     left: 20px;
     top: 335px;
     width: 350px;
+}
+.desc_create {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    top: 400px;
+    width: 350px;
+}
+.at_develop
+{
+	display:block;
+	position: absolute; 
+	top: 400px; 
+	left: 455px; 
+    background:url(at.png) no-repeat;	
+ 	z-index:10;
+	width: 60px;
+	height: 60px;
 }
 .title_develop {
     display: block;
@@ -63,6 +107,28 @@
     top: 500px;
     width: 360px;
 }
+.desc_develop {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 310px;
+    top: 565px;
+    width: 350px;
+}
+.at_consult
+{
+	display:block;
+	position: absolute; 
+	top: 230px; 
+	left: 740px; 
+    background:url(at.png) no-repeat;	
+ 	z-index:10;
+	width: 60px;
+	height: 60px;
+}
 .title_consult {
     display: block;
     font-family: 'Lucida Sans Unicode';
@@ -74,6 +140,39 @@
     left: 600px;
     top: 335px;
     width: 350px;
+}
+.desc_consult {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 625px;
+    top: 400px;
+    width: 300px;
+}
+.TMLogo
+{
+	display:block;
+	position: absolute; 
+	top: 20px; 
+	left: 145px; 
+    background:url(TMIcon.png) no-repeat;	
+ 	z-index:10;
+	width: 108px;
+	height: 108px;
+}
+.desc_TMLogo {
+    display: block;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+    position: absolute;
+    left: 125px;
+    top: 135px;
+    width: 140px;
 }
 }
 @media (max-width: 969px) {
